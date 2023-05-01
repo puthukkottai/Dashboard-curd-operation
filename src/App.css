@@ -1,38 +1,108 @@
-.App {
+.app-container {
+  margin: 0px auto;
+  width: 100%;
+  background-color: #f7f7f7;
+  height: 100%;
+}
+.brand-logo {
+  width: 100%;
+  height: 70px;
+}
+.para-text {
+  margin-top: 0px;
+}
+.main-page-header {
+  background-color: rgb(134, 134, 241);
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+  width: 100%;
+  height: 70px;
+  font-size: xx-large;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-page-content-container {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 100lvh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.heading {
+  text-align: center;
+  color: blue;
+  margin-top: 30px;
+}
+.heading1 {
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+}
+
+.side-bar-area {
+  width: 15%;
+  background-color: rgb(134, 134, 241);
+  color: white;
+  height: 100vh;
+}
+.nav-bar-jouney > ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0px;
+}
+.link-no-underline {
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-bar-jouney > ul > li {
+  height: 100%;
+  color: blue;
+  font-size: large;
+  cursor: pointer;
+}
+.nav-bar-jouney > ul > li:hover {
+  background-color: white;
+  font-weight: 500;
+}
+.content-side-area {
+  width: 100%;
+  height: 100%;
+}
+.landing-page-heading {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  color: blue;
+}
+.option-alignment > a {
+  color: black;
+  text-decoration: none;
+}
+.option-alignment {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.option-alignment:hover {
+  cursor: pointer;
+}
+.student-content-page {
+  text-align: center;
+  margin-top: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+.table-form {
+  margin-top: 5%;
+}
+.alignment {
+  margin-top: 10%;
 }
